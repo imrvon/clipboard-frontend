@@ -52,6 +52,9 @@ header .header-image img {
 
 .all-buttons {
     padding-top: 40px;
+    display: flex;
+    justify-content: center;
+    column-gap: 25px;
 }
 
 .left-button {
@@ -61,6 +64,9 @@ header .header-image img {
     border-radius: 25px;
     padding: 10px 15px;
     cursor: pointer;
+    font-size: 1.2rem;
+    position: relative;
+    box-shadow: 0px 8px 15px hsl(171, 66%, 44%);
 }
 
 .right-button {
@@ -70,6 +76,9 @@ header .header-image img {
     border-radius: 25px;
     padding: 10px 15px;
     cursor: pointer;
+    font-size: 1.2rem;
+    position: relative;
+    box-shadow: 0px 8px 15px hsl(233, 100%, 69%);
 }
 
 #track .track {
@@ -209,5 +218,149 @@ header .header-image img {
 }
 
 @media only screen and (max-width:375px) {
+    header {
+        background-image: url(images/bg-header-mobile.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
     
+    header .header-image img {
+        padding: 50px 0;
+    }
+    
+    #intro, #track, #second-image-section, #bottom {
+        width: 300px;
+        margin: 0 auto;
+    }
+    
+    #intro .intro {
+        text-align: center;
+        padding: 25px 0;
+    }
+    
+    #intro .intro h1, #intro .intro p {
+        padding-top: 15px;
+    }
+    
+    .all-buttons {
+        padding-top: 40px;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .left-button, .right-button {
+        margin-top: 25px;
+    }
+    
+    #first-image-section .first-image-section {
+        display: block;
+        width: 300px;
+        margin: 0 auto;
+    }
+    
+    #first-image-section .first-image-section .fis-1 img {
+        width: 300px;
+        padding-bottom: 25px;
+    }
+    
+    #first-image-section .first-image-section .fis-2 {
+        padding: unset;
+    }
+    
+    .fis-2-child {
+        padding-bottom: 50px;
+        text-align: center;
+    }
+    
+    #second-image-section .second-image-section img {
+        padding-top: 50px;
+        width: 300px;
+    }
+    
+    #tools {
+        padding-top: 100px;
+    }
+    
+    #tools .tools {
+        text-align: center;
+    }
+    
+    #tools .tools .tools-text {
+        padding: 0 25px;
+    }
+
+    #tools .tools .text-col {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    
+    
+    #tools .tools .text-col .the-tools {
+        padding: 50px;
+        flex: 1 1 0px;
+        line-height: 1.6;
+    }
+    
+    #carousal {
+        padding-top: 100px;
+        width: 300px;
+        margin: 0 auto;
+    }
+    
+    #carousal .carousal {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    #carousal .carousal .carousal-images {
+        padding: 25px 0;
+    }
+    
+    #footer-part .footer-part {
+        display: flex;
+        flex-direction: column;
+        justify-content:center;
+        align-items: center;
+    }
+    
+    #footer-part .footer-part .footer-logo {
+        width: 100%;
+        padding: unset;
+        display: flex;
+        justify-content: center;
+    }
+    
+    #footer-part .footer-part .footer-logo img {
+        width: 70px;
+        padding: 50px 0;
+    }
+    
+    #footer-part .footer-part .footer-menus {
+        width: unset;
+    }
+    
+    #footer-part .footer-part .footer-menus .menu-item {
+        line-height: 1.6;
+        text-align: center;
+        padding: 10px 0;
+    }
+    
+    #footer-part .footer-part .social {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        padding: 20px 0;
+    }
+    
+    #footer-part .footer-part .social .social-item {
+        padding: 20px 10px;
+    }
+    
+    #footer-part .footer-part .footer-menus {
+        display: flex;
+        flex-direction: column;
+    }
 }
