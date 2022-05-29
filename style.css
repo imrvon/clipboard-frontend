@@ -1,0 +1,213 @@
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;600&display=swap');
+
+* {
+    font-family: 'Bai Jamjuree', sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    list-style-type:none;
+}
+
+h1, h2, h3 {
+    font-weight: 600;
+}
+
+p {
+    font-weight: 400;
+    font-size: 18px;
+}
+
+body {
+    min-width: fit-content;
+}
+
+header {
+    background-image: url(images/bg-header-desktop.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+header .header-image {
+    display: flex;
+    justify-content: center;
+}
+
+header .header-image img {
+    padding: 50px 0;
+}
+
+#intro, #track, #second-image-section, #bottom {
+    width: 600px;
+    margin: 0 auto;
+}
+
+#intro .intro {
+    text-align: center;
+    padding: 25px 0;
+}
+
+#intro .intro h1, #intro .intro p {
+    padding-top: 15px;
+}
+
+.all-buttons {
+    padding-top: 40px;
+}
+
+.left-button {
+    color: #ffffff;
+    background-color: hsl(171, 66%, 44%);
+    border: 1px solid hsl(171, 66%, 44%);
+    border-radius: 25px;
+    padding: 10px 15px;
+    cursor: pointer;
+}
+
+.right-button {
+    color: #ffffff;
+    background-color: hsl(233, 100%, 69%);
+    border: 1px solid hsl(233, 100%, 69%);
+    border-radius: 25px;
+    padding: 10px 15px;
+    cursor: pointer;
+}
+
+#track .track {
+    text-align: center;
+    padding: 100px 0 70px 0;
+}
+
+#track .track h1, #track .track p {
+    padding-top: 15px;
+}
+
+#first-image-section .first-image-section {
+    display: flex;
+}
+
+#first-image-section .first-image-section .fis-1 img {
+    width: 600px;
+}
+
+#first-image-section .first-image-section .fis-2 {
+    padding: 50px 300px 50px 100px;
+}
+
+.fis-2-child {
+    padding-bottom: 50px;
+}
+
+#second-image-section {
+    padding-top: 100px;
+}
+
+#second-image-section .second-image-section .second-image-sec-img {
+    display: flex;
+    justify-content: center;
+}
+
+#second-image-section .second-image-section {
+    text-align: center;
+}
+
+#second-image-section .second-image-section h2, #second-image-section .second-image-section p {
+    padding-top: 15px;
+}
+
+#second-image-section .second-image-section img {
+    padding-top: 50px;
+}
+
+#tools {
+    padding-top: 100px;
+}
+
+#tools .tools {
+    text-align: center;
+}
+
+#tools .tools .text-col {
+    display: flex;
+    justify-content: center;
+}
+
+#tools .tools .text-col .the-tools {
+    padding: 50px;
+    flex: 1 1 0px;
+    line-height: 1.6;
+}
+
+#tools .tools .text-col .the-tools img {
+    padding-bottom: 25px;
+}
+
+#carousal {
+    padding-top: 100px;
+}
+
+#carousal .carousal {
+    display: flex;
+    justify-content: center;
+}
+
+#carousal .carousal .carousal-images {
+    padding: 0 50px;
+}
+
+#bottom {
+    padding-top: 100px;
+}
+
+#bottom .bottom {
+    text-align: center;
+}
+
+#bottom .bottom  h2, #bottom .bottom  p {
+    padding-top: 15px;
+}
+
+#footer-part {
+    margin-top: 100px;
+    padding: 50px 0px;
+    background-color: #E7E9EA;
+}
+
+#footer-part .footer-part {
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+}
+
+#footer-part .footer-part .footer-logo {
+    width: 25%;
+    padding-left: 150px;
+}
+
+#footer-part .footer-part .footer-logo img {
+    width: 50px;
+}
+
+#footer-part .footer-part .footer-menus {
+    width: 50%;
+}
+
+#footer-part .footer-part .footer-menus .menu-item {
+    line-height: 1.6;
+    padding-left: 50px;
+}
+
+#footer-part .footer-part .social {
+    width: 25%;
+}
+
+#footer-part .footer-part .social .social-item {
+    padding-left: 25px;
+}
+
+#footer-part .footer-part .footer-menus {
+    display: flex;
+}
+
+@media only screen and (max-width:375px) {
+    
+}
