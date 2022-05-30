@@ -217,11 +217,12 @@ header .header-image img {
     display: flex;
 }
 
-@media only screen and (max-width:375px) {
+@media only screen and (max-width:767px) {
+
+    
     header {
         background-image: url(images/bg-header-mobile.png);
-        background-size: cover;
-        background-repeat: no-repeat;
+        width: 767px;
     }
     
     header .header-image img {
@@ -229,8 +230,8 @@ header .header-image img {
     }
     
     #intro, #track, #second-image-section, #bottom {
-        width: 300px;
-        margin: 0 auto;
+        width: unset;
+        margin: unset;
     }
     
     #intro .intro {
@@ -239,7 +240,7 @@ header .header-image img {
     }
     
     #intro .intro h1, #intro .intro p {
-        padding-top: 15px;
+        padding: 15px 200px 0 200px;
     }
     
     .all-buttons {
@@ -251,16 +252,27 @@ header .header-image img {
     .left-button, .right-button {
         margin-top: 25px;
     }
+
+    #track .track h1, #track .track p {
+        padding: 0 200px;
+    }
     
     #first-image-section .first-image-section {
-        display: block;
-        width: 300px;
-        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    #first-image-section .first-image-section .fis-1 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
     }
     
     #first-image-section .first-image-section .fis-1 img {
-        width: 300px;
         padding-bottom: 25px;
+        width: 400px;
+        margin: 0 auto;
     }
     
     #first-image-section .first-image-section .fis-2 {
@@ -268,13 +280,18 @@ header .header-image img {
     }
     
     .fis-2-child {
-        padding-bottom: 50px;
+        padding: 0px 200px 50px 200px;
         text-align: center;
     }
     
     #second-image-section .second-image-section img {
         padding-top: 50px;
-        width: 300px;
+        width: 400px;
+        margin: 0 auto;
+    }
+
+    #second-image-section .second-image-section h2, #second-image-section .second-image-section p {
+        padding: 0 200px;
     }
     
     #tools {
@@ -286,7 +303,7 @@ header .header-image img {
     }
     
     #tools .tools .tools-text {
-        padding: 0 25px;
+        padding: 0 5px;
     }
 
     #tools .tools .text-col {
@@ -295,17 +312,14 @@ header .header-image img {
         justify-content: center;
     }
     
-    
     #tools .tools .text-col .the-tools {
-        padding: 50px;
+        padding: 50px 200px;
         flex: 1 1 0px;
         line-height: 1.6;
     }
     
     #carousal {
         padding-top: 100px;
-        width: 300px;
-        margin: 0 auto;
     }
     
     #carousal .carousal {
@@ -318,8 +332,13 @@ header .header-image img {
     #carousal .carousal .carousal-images {
         padding: 25px 0;
     }
+
+    #bottom .bottom  h2, #bottom .bottom  p {
+        padding: 0 200px;
+    }
     
     #footer-part .footer-part {
+        width: 767px;
         display: flex;
         flex-direction: column;
         justify-content:center;
@@ -327,7 +346,7 @@ header .header-image img {
     }
     
     #footer-part .footer-part .footer-logo {
-        width: 100%;
+        width: 500px;
         padding: unset;
         display: flex;
         justify-content: center;
@@ -349,14 +368,14 @@ header .header-image img {
     }
     
     #footer-part .footer-part .social {
-        width: 100%;
+        width: 0px;
         display: flex;
         justify-content: center;
         padding: 20px 0;
     }
     
     #footer-part .footer-part .social .social-item {
-        padding: 20px 10px;
+        padding: 30px 10px;
     }
     
     #footer-part .footer-part .footer-menus {
