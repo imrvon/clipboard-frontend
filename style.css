@@ -210,7 +210,7 @@ header .header-image img {
     }
     
     #intro .intro {
-        padding: 25px 100px;
+        padding: 25px 15px;
     }
     
     .all-buttons {
@@ -221,7 +221,7 @@ header .header-image img {
     
     #track .track {
         text-align: center;
-        padding: 100px 100px 70px 100px;
+        padding: 100px 15px 70px 15px;
     }
     
     #first-image-section .first-image-section {
@@ -232,23 +232,27 @@ header .header-image img {
     }
     
     #first-image-section .first-image-section .fis-1 img {
-        width: 400px;
+        width: 300px;
         max-width: 100%;
     }
     
     .fis-2-child {
         text-align: center;
-        padding: 50px 100px;
+        padding: 50px 15px;
     }
     
     #second-image-section .second-image-section h2, #second-image-section .second-image-section p {
-        padding: 15px 100px 0 100px;
+        padding: 15px 15px 0 15px;
     }
     
     #second-image-section .second-image-section img {
         padding-top: 50px;
         width: 400px;
         max-width: 100%;
+    }
+
+    #tools {
+        padding: 100px 10px 0 10px;
     }
     
     #tools .tools .text-col {
@@ -258,7 +262,7 @@ header .header-image img {
     }
     
     #tools .tools .text-col .the-tools {
-        padding: 25px 100px;
+        padding: 50px 10px;
     }
     
     #carousal .carousal {
@@ -273,7 +277,7 @@ header .header-image img {
     }
     
     #bottom .bottom  h2, #bottom .bottom  p {
-        padding: 15px 100px 0 100px;
+        padding: 15px 15px 0 15px;
     }
     
     #footer-part .footer-part {
